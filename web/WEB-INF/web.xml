@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>Svl_Autentificacion</servlet-name>
-        <servlet-class>Servlets.Svl_Autentificacion</servlet-class>
+        <servlet-name>Svl_Usuario</servlet-name>
+        <servlet-class>Servlets.Svl_Usuario</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Svl_Autentificacion</servlet-name>
-        <url-pattern>/Svl_Autentificacion</url-pattern>
+        <servlet-name>Svl_Usuario</servlet-name>
+        <url-pattern>/Svl_Usuario</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
