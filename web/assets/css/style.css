@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+#contenedor {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pnlContenedor {
+    background-color: #DFDFDF;
+    width: 300px;
+    border-top: .3rem solid #101010;
+    box-sizing: border-box;
+    padding: 1.5rem 0;
+    box-shadow: 0 0 .5rem #1F2430;
+    border-radius: .3rem;
+}
+
+.pnlTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lblTitulo {
+    color: #2E2E2E;
+}
+
+.frmLogin {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem 0;
+}
+
+.lg-txtUsuario, .lg-txtClave {
+    height: .3rem;
+    margin: .3rem 0;
+    padding: 0.8rem;
+    transition: all .7s;
+    border: none;
+    color: #154E65;
+}
+
+.btnIngresar {
+    height: 2rem;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    background-color: #207698;
+    color: #FFF;
+    padding: .5rem;
+    margin: .5rem 0 .3rem;
+}
+
+.btnIngresar:hover {
+    background-color: #0A2732;
+    transition: all .5s;
+}
