@@ -15,7 +15,6 @@
                     <h1 class="lblTitulo">Sign In.</h1>
                 </div>
 
-<!--                <form action="Svl_Autentificacion" method="POST" class="frmLogin">-->
                 <form class="frmLogin">
                     <input type="text" name="txtUsuario" id="txtUsuario" class="lg-txtUsuario" placeholder="&#128100; Usuario" autocomplete="off" autofocus />
                     <input type="password" name="txtClave" id="txtClave" class="lg-txtClave" placeholder="&#x1f512; Contraseña" autocomplete="off" />
