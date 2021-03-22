@@ -2,13 +2,27 @@
 <html lang="es">
     <head>
         <title>.:Login - Registrar Usuarios:.</title>
-        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
         <!--CSS Only-->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
-    <body>
+    <body id="contenedor">
+        <main>
+            <div class="pnlContenedor">
+                <div class="pnlTop">
+                    <h1 class="lblTitulo">Sign In</h1>
+                </div>
+                
+                <form class="frmLogin">
+                    <input type="text" name="txtUsuario" id="txtUsuario" placeholder="&#128100; Usuario" autocomplete="off" autofocus />
+                    <input type="password" name="txtClave" id="txtClave" placeholder="&#x1f512; Contraseña" autocomplete="off" />
+                    
+                    <button type="button" class="btnIngresar" id="btnEnviar">Ingresar</button>
+                </form>
+            </div>
+        </main>
         
         <!--Code JS-->
         <script src="assets/js/scripts.js"></script>
