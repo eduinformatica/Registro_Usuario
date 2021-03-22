@@ -55,7 +55,7 @@ body {
 }
 
 .btnIngresar {
-    height: 2rem;
+    /*height: 2rem;*/
     border-radius: .5rem;
     border: none;
     cursor: pointer;
